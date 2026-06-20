@@ -1,18 +1,27 @@
 {
-  "name": "@omer-x/node-module",
+  "name": "@omer-x/zod-to-form-constraints",
   "version": "1.0.0",
-  "description": "UPDATE_HERE_WITH_A_MEANINGFUL_DESCRIPTION",
+  "description": "Generate React form element props from Zod schemas, mapping validation rules into native form constraints and attributes.",
   "keywords": [
-    "typescript"
+    "typescript",
+    "zod",
+    "react",
+    "form",
+    "validation",
+    "constraints",
+    "attributes",
+    "generator",
+    "library",
+    "open-source"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/omermecitoglu/node-module.git"
+    "url": "git+https://github.com/omermecitoglu/zod-to-form-constraints.git"
   },
   "bugs": {
-    "url": "https://github.com/omermecitoglu/node-module/issues"
+    "url": "https://github.com/omermecitoglu/zod-to-form-constraints/issues"
   },
-  "homepage": "https://github.com/omermecitoglu/node-module#readme",
+  "homepage": "https://github.com/omermecitoglu/zod-to-form-constraints#readme",
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -44,14 +53,16 @@
     "dev": "tsup --watch",
     "build": "tsup"
   },
-  "dependencies": {
-    "react": "latest"
+  "peerDependencies": {
+    "zod": "^4"
   },
   "devDependencies": {
     "@omer-x/eslint-config": "^2.3.2",
     "@types/node": "^26.0.0",
+    "@types/react": "^19.2.17",
     "@vitest/coverage-v8": "^4.1.9",
     "eslint": "^9.39.2",
+    "react": "^19.2.7",
     "semantic-release": "^25.0.5",
     "tsup": "^8.5.1",
     "typescript": "^6.0.3",
