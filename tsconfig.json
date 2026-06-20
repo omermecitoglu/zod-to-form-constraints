@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0", // https://github.com/egoist/tsup/issues/1388
+    "types": ["node"],
+    "lib": ["ESNext"],
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+  },
+  "include": [
+    "**/*.ts",
+  ],
+  "exclude": ["node_modules", "dist"]
+}
