@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { exampleFunction } from "./index";
+import { getFieldConstraints } from "./index";
 
-describe("exampleFunction", () => {
+describe("getFieldConstraints", () => {
   it("should be a function", () => {
-    expect(typeof exampleFunction).toBe("function");
+    expect(typeof getFieldConstraints).toBe("function");
   });
 });

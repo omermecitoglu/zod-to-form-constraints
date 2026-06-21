@@ -1,3 +1,1 @@
-export function exampleFunction() {
-  console.log(" This is an example function ");
-}
+export { getFieldConstraints } from "./core/getFieldConstraints";
