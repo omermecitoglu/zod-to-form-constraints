@@ -7,4 +7,5 @@ export function determineMin(schema: $ZodType): ComponentProps<"input">["min"] {
   if (inputType !== "string") {
     return min;
   }
+  return undefined;
 }

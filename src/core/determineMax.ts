@@ -7,4 +7,5 @@ export function determineMax(schema: $ZodType): ComponentProps<"input">["max"] {
   if (inputType !== "string") {
     return max;
   }
+  return undefined;
 }

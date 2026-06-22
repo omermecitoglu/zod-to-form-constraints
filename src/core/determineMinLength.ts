@@ -7,4 +7,5 @@ export function determineMinLength(schema: $ZodType): ComponentProps<"input">["m
   if (inputType === "string") {
     return min;
   }
+  return undefined;
 }

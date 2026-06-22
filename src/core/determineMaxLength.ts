@@ -7,4 +7,5 @@ export function determineMaxLength(schema: $ZodType): ComponentProps<"input">["m
   if (inputType === "string") {
     return max;
   }
+  return undefined;
 }
