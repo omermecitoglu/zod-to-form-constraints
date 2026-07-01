@@ -2,7 +2,7 @@
   "compilerOptions": {
     "ignoreDeprecations": "6.0", // https://github.com/egoist/tsup/issues/1388
     "types": ["node"],
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM"],
     "noImplicitReturns": true, // because this is a library
     "paths": {
       "~/*": ["./src/*"]
